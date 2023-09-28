@@ -1,0 +1,2 @@
+<app-login *ngIf="loginHome" (loginSuccess)="onLogin()"></app-login>
+<app-home *ngIf="!loginHome" (onHome)="onHome()" ></app-home>
